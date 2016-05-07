@@ -1,20 +1,20 @@
 # Module-Remote-Relay
 Module Remote Relay for Svxlink to drive 4 relays by DTMF Code
 
-RemoteRelay.tcl   -> /usr/share/svxlink/events.d\
-ModuleRemoteRelay->/usr/share/svxlink/modules.d\
+RemoteRelay.tcl  -> /usr/share/svxlink/events.d\
+ModuleRemoteRelay -> /usr/share/svxlink/modules.d\
 
-Les sons sont \'e0 mettre dans le repertoire: /usr/share/svxlink/sounds/\'ab\'a0repertoire langue\'a0\'bb\
+Les sons sont à mettre dans le repertoire: /usr/share/svxlink/sounds/repertoire langue/
 
-Par exemple pour le fran\'e7ais: /usr/share/svxlink/sounds/fr_FR\
+Par exemple pour le français: /usr/share/svxlink/sounds/fr_FR/
 
-un repertoire RemoteRelay dans le repertoire langue:
+Un repertoire RemoteRelay dans le repertoire langue:
 
-Par exemple pour la langue fran\'e7aise: /usr/share/svxlink/sounds/fr_FR/RemoteRelay
+Par exemple pour la langue française: /usr/share/svxlink/sounds/fr_FR/RemoteRelay
 
 Vous avez besoin des sons suivants:
 
-name.wav -> le nom du module, svxlink dira \'ab\'a0name.wav\'a0\'bb activ\'e9\
+name.wav -> le nom du module, svxlink dira name.wav activé
 
 relay1off.wav   dit: Relais 1 off
 relay2off.wav
