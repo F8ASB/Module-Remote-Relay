@@ -148,7 +148,7 @@ proc dtmfCmdReceived {cmd} {
     exec gpio -g write 21 1 &
     after 100
     exec gpio -g write 21 0 &
-  } elseif {$cmd == "212"} {
+  } elseif {$cmd == "222"} {
     printInfo "Relay K3 PULSE"
     playMsg "relay3pulse";
     puts "Executing external command"
